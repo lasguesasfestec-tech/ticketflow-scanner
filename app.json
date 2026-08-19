@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ticket Flow Scanner",
+    "slug": "ticketflow-scanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0B24"
+    },
+    "android": {
+      "package": "com.ticketflow.scanner",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0B24"
+      },
+      "permissions": ["CAMERA"]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Ticket Flow Scanner necesita la cámara para escanear los códigos QR de los boletos."
+        }
+      ]
+    ]
+  }
+}
